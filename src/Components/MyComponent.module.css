@@ -1,0 +1,15 @@
+.myComponent {
+  color: green;
+  font-size: 20px;
+  border: 1px dashed blue;
+  /* Add other styles as needed */
+}
+
+
+.myComponentdiv {
+    color: rgb(84, 19, 154);
+    font-size: 20px;
+    border: 1px dashed rgb(1, 1, 8);
+    background-color: rgb(226, 232, 124);
+    /* Add other styles as needed */
+}

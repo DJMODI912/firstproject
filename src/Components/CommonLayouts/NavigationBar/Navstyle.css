@@ -1,0 +1,114 @@
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+}
+
+.navbar-nav {
+  margin: 0 auto;
+}
+
+.nav-link {
+  color: white;
+
+}
+
+.work-content {
+  color: red;
+}
+
+.dropdown-menu {
+  background-color: #333;
+  border: none;
+}
+
+.dropdown-item {
+  color: white;
+}
+
+.dropdown-item:hover {
+  background-color: #555;
+}
+
+.dropdown-content a:hover{
+  background-color: #333;
+  color: white;
+}
+.nested-dropdown-content a:hover {
+  background-color: #333;
+  color: white;
+}
+
+.dropdown {
+  width: 100px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.nested-dropdown {
+  position: relative;
+}
+
+.nested-dropdown-content {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: 0;
+  background-color: #333;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.nested-dropdown:hover .nested-dropdown-content {
+  display: block;
+}
+
+.dropdown-content a, .nested-dropdown-content a {
+  color: #333;
+  padding: 12px 16px;
+  text-decoration: none;
+  background-color: white;
+  display: block;
+}
+
+.mega-menu {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.mega-menu-column {
+  display: block;
+}
+
+.mega-menu-column a {
+  color: #333;
+  display: block;
+  padding: 5px 0;
+  text-decoration: none;
+}
+
+.mega-menu-column a:hover {
+  background-color: white;
+  color: red;
+}
+
+h3{
+  color: #4f4f4f;
+}
+h3:hover{
+  color: black;
+}
